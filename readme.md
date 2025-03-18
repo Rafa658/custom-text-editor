@@ -30,3 +30,4 @@ make
 And execute it as `./main <filename>`.
 
 ## Known bugs
+# custom-text-editor
