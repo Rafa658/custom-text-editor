@@ -12,22 +12,27 @@ This editor includes, but is not limited to:
 - searching
 - syntax highlighting
 
-## How to use
+## Getting started
 
 First of all, clone this repo:
 ```bash
 mkdir custom-text-editor
 cd custom-text-editor
-git clone
-
+git clone git@github.com:Rafa658/custom-text-editor.git
 ```
 
-Finally simply type:
+Then simply type:
 ```bash
 make
 ```
 
+## Commands
+- `Ctrl` + `F` for searching characters;
+- `Ctrl` + `S` for saving;
+- `Ctrl` + `Q` for quitting (once if saved, thrice if changes not saved).
+
 And execute it as `./main <filename>`.
 
 ## Known bugs
-# custom-text-editor
+- tab spacing works fine, but highlighted char doesn't follow.
+- `Ctrl` + `F` highlighting continues after search prompt is closed.
